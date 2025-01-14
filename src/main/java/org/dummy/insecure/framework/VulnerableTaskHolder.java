@@ -70,6 +70,11 @@ public class VulnerableTaskHolder implements Serializable {
         }
       } catch (IOException e) {
         log.error("IO Exception", e);
+          while ((line = in.readLine()) != null) {
+          log.info(line);
+        }
+      } catch (IOException e) {
+        log.error("IO Exception", e);
       }
     }
   }
