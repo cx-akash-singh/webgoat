@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-// TODO move back to lesson 1
+// TODO move back to lesson 2
 public class VulnerableTaskHolder implements Serializable {
 
   private static final long serialVersionUID = 2;
